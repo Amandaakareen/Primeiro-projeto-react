@@ -1,0 +1,52 @@
+.comment {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.commentbox {
+  flex: 1;
+}
+.commentcontent {
+  background: var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+}
+.commentcontent header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+}
+.author time {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--gray-400);
+}
+.comment header button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 4px;
+}
+.comment p {
+  margin-top: 1rem;
+  color: var(--gray-300);
+}
+.commentbox footer {
+  margin-top: 1rem;
+}
+.commentbox footer button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
